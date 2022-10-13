@@ -1,5 +1,3 @@
-React Native TouchableWithoutFeedback
-
 import React, {useState} from 'react';
 import {
   Button,
