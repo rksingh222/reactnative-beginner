@@ -1,3 +1,9 @@
+//Android react native vector icon
+//1. Run this in terminal or iterm    ——  $ npm install --save react-native-vector-icons — done
+//2. Edit android/app/build.gradle ( NOT android/build.gradle ) and add the following: apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+//3. To sync the gradle go to android in terminal and ./gradlew clean
+//4. npm run android
+
 import {NavigationContainer} from '@react-navigation/native';
 import {
   BottomTabBar,
